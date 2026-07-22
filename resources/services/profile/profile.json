@@ -1,0 +1,182 @@
+{
+    "m": [
+        {
+            "name": "Boye to Good boiks",
+            "id": "m001",
+            "conditions": ["g001", "c009", "c012"]
+        },
+        {
+            "name": "Only Join Requirements",
+            "id": "m002",
+            "conditions": ["g001"]
+        },
+        {
+            "name": "Guild Pruning",
+            "id": "m003",
+            "conditions": ["c014", "c012"]
+        }
+    ],
+    "g": [
+        {
+            "name": "Join Requirements",
+            "id": "g001",
+            "conditions": ["c001", "g002", "g003", "g004"],
+            "totalConditionsPass": 1
+        },
+        {
+            "name": "Bedwars",
+            "id": "g002",
+            "conditions": ["g006", "c004"],
+            "totalConditionsPass": 1
+        },
+        {
+            "name": "Skywars",
+            "id": "g003",
+            "conditions": ["c005"],
+            "totalConditionsPass": 1
+        },
+        {
+            "name": "Duels",
+            "id": "g004",
+            "conditions": ["c007", "c008"],
+            "totalConditionsPass": 2
+        },
+        {
+            "name": "Highest Gexp & 28 Days",
+            "id": "g005",
+            "conditions": ["c010", "c011", "c013"],
+            "totalConditionsPass": 2
+        },
+        {
+            "name": "Bedwars Stars and FKDR",
+            "id": "g006",
+            "conditions": ["c002", "c003"],
+            "totalConditionsPass": 2
+        }
+    ],
+    "c": [
+        {
+            "name": "Network Level",
+            "id": "c001",
+            "statistic": "network_level",
+            "operator": ">=",
+            "value": 100
+        },
+        {
+            "name": "Bedwars Stars",
+            "id": "c002",
+            "statistic": "bedwars_stars",
+            "operator": ">=",
+            "value": 100
+        },
+        {
+            "name": "Bedwars FKDR",
+            "id": "c003",
+            "statistic": "bedwars_fkdr",
+            "operator": ">=",
+            "value": 1
+        },
+        {
+            "name": "Bedwars Wins",
+            "id": "c004",
+            "statistic": "bedwars_wins",
+            "operator": ">=",
+            "value": 900
+        },
+        {
+            "name": "Skywars Level",
+            "id": "c005",
+            "statistic": "skywars_level",
+            "operator": ">=",
+            "value": 12
+        },
+        {
+            "name": "Skywars Wins",
+            "id": "c006",
+            "statistic": "skywars_wins",
+            "operator": ">=",
+            "value": 500
+        },
+        {
+            "name": "Duels Wins",
+            "id": "c007",
+            "statistic": "duels_wins",
+            "operator": ">=",
+            "value": 2000
+        },
+        {
+            "name": "Duels WLR",
+            "id": "c008",
+            "statistic": "duels_wlr",
+            "operator": ">=",
+            "value": 1
+        },
+        {
+            "name": "Current Gexp Week",
+            "id": "c009",
+            "statistic": "current_gexp_week",
+            "operator": ">=",
+            "value": 45000
+        },
+        {
+            "name": "Highest Gexp Day",
+            "id": "c010",
+            "statistic": "highest_gexp_day_db",
+            "operator": ">=",
+            "value": 50000
+        },
+        {
+            "name": "Highest Gexp Week",
+            "id": "c011",
+            "statistic": "highest_gexp_week_db",
+            "operator": ">=",
+            "value": 350000
+        },
+        {
+            "name": "Seven Days",
+            "id": "c012",
+            "statistic": "since_joined_in_days",
+            "operator": ">=",
+            "value": 7
+        },
+        {
+            "name": "Twenty Eight Days",
+            "id": "c013",
+            "statistic": "since_joined_in_days",
+            "operator": ">=",
+            "value": 28
+        },
+        {
+            "name": "Less than CurrentGexp",
+            "id": "c014",
+            "statistic": "current_gexp_week",
+            "operator": "<",
+            "value": 35000
+        }
+    ],
+    "ids": [
+        "m001",
+        "m002",
+        "m003",
+        "g001",
+        "g002",
+        "g003",
+        "g004",
+        "g005",
+        "g006",
+        "c001",
+        "c002",
+        "c003",
+        "c004",
+        "c005",
+        "c006",
+        "c007",
+        "c008",
+        "c009",
+        "c010",
+        "c011",
+        "c012",
+        "c013",
+        "c014"
+    ]
+}
